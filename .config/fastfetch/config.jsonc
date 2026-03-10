@@ -1,0 +1,62 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/cat.txt",
+        "padding": {
+            "top": 1
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "key": "╭───╮",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#31} {#keys}│",
+            "type": "title",
+            "format": "{user-name}"
+        },
+        {
+            "key": "│ {#32}󰇅 {#keys}│",
+            "type": "title",
+            "format": "{host-name}"
+        },
+        {
+            "key": "│ {#34}{icon} {#keys}│",
+            "type": "os"
+        },
+        {
+            "key": "│ {#36}󰇄 {#keys}│",
+            "type": "de"
+        },
+        {
+            "key": "│ {#31} {#keys}│",
+            "type": "terminal"
+        },
+        {
+            "key": "│ {#32} {#keys}│",
+            "type": "shell"
+        },
+        {
+            "key": "│ {#33}󰍛 {#keys}│",
+            "type": "cpu",
+            "showPeCoreCount": true
+        },
+        {
+            "key": "│ {#34}󰉉 {#keys}│",
+            "type": "disk",
+            "folders": "/"
+        },
+        {
+            "key": "│ {#35} {#keys}│",
+            "type": "memory"
+        },
+        {
+            "key": "╰───╯",
+            "type": "custom"
+        }
+    ]
+}
