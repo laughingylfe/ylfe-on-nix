@@ -1,2 +1,2 @@
-# ylfe-on-nix
-backup nixos ylfe
+# ylfe-on-linux
+backup linux
